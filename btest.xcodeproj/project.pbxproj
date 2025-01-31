@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC04DE5D2D4C5DE400E2CDB9 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = AC04DE5C2D4C5DE400E2CDB9 /* Starscream */; };
+		AC04DE6B2D4C6AF200E2CDB9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AC04DE6A2D4C6AF200E2CDB9 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC04DE5D2D4C5DE400E2CDB9 /* Starscream in Frameworks */,
+				AC04DE6B2D4C6AF200E2CDB9 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +120,7 @@
 			name = btest;
 			packageProductDependencies = (
 				AC04DE5C2D4C5DE400E2CDB9 /* Starscream */,
+				AC04DE6A2D4C6AF200E2CDB9 /* Alamofire */,
 			);
 			productName = btest;
 			productReference = AC04DE2A2D4C561000E2CDB9 /* btest.app */;
@@ -203,6 +206,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				AC04DE5B2D4C5DE400E2CDB9 /* XCRemoteSwiftPackageReference "Starscream" */,
+				AC04DE692D4C6AF200E2CDB9 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AC04DE2B2D4C561000E2CDB9 /* Products */;
@@ -577,6 +581,14 @@
 				minimumVersion = 4.0.8;
 			};
 		};
+		AC04DE692D4C6AF200E2CDB9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -584,6 +596,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AC04DE5B2D4C5DE400E2CDB9 /* XCRemoteSwiftPackageReference "Starscream" */;
 			productName = Starscream;
+		};
+		AC04DE6A2D4C6AF200E2CDB9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC04DE692D4C6AF200E2CDB9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
